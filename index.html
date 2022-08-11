@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <main class="main-container">
+    <section class="card">
+      <div class="card__img">
+        <img src="images/image-equilibrium.jpg" alt="NFT Image" class="d-flex">
+        <div class="card__img--hover d-flex align-center">
+          <img src="images/icon-view.svg" alt="Icon View">
+        </div>
+      </div>
+      <div class="card__content">
+        <h1 class="card__content--title"><a href="#">Equilibrium #3429</a></h1>
+        <p class="card__content--description">Our Equilibrium collection promotes balance and calm.</p>
+        <div class="card__content__price">
+          <div class="d-flex jc-between align-center">
+            <div class="card__content__price--value">
+              <img src="images/icon-ethereum.svg" alt="Icon Ethereum">
+              <span>0.041 ETH</span>
+            </div>
+            <div class="card__content__price--time">
+              <div class="d-flex jc-between align-center">
+                <img src="images/icon-clock.svg" alt="Icon Clock">
+                <span>3 days left</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="card__content__user">
+          <div class="d-flex align-center">
+            <img src="images/image-avatar.png" alt="Avatar User">
+            <p>Creation of <a href="#">Jules Wyvern</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://mrubi.vercel.app/" target="_blank">Marcos Rubí</a>.
+  </div>
+</body>
+
+</html>

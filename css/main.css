@@ -1,0 +1,132 @@
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #0d192b;
+}
+
+hr {
+  border-color: #2f415b;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: all 300ms;
+  -o-transition: all 300ms;
+  transition: all 300ms;
+}
+a:hover {
+  color: #00fff7;
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.jc-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card {
+  background-color: #14253d;
+  width: 90%;
+  margin: 0px auto;
+  max-width: 350px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.card__img {
+  position: relative;
+  background-color: red;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100%;
+}
+.card__img img {
+  width: 100%;
+}
+.card__img:hover .card__img--hover {
+  width: 100%;
+  height: 100%;
+}
+.card__img--hover {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #00fff7;
+  opacity: 0.7;
+  cursor: pointer;
+  -webkit-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+  border-radius: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.card__img--hover img {
+  max-width: 5em;
+}
+.card__content--description {
+  color: #8bacda;
+  font-weight: 300;
+  font-size: 18px;
+  padding-right: 20px;
+}
+.card__content__price {
+  padding: 10px 0px;
+}
+.card__content__price--value {
+  color: #00fff7;
+}
+.card__content__price--time {
+  color: #8bacda;
+}
+.card__content__price span {
+  font-weight: 400;
+  padding-left: 5px;
+}
+.card__content__user img {
+  width: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.card__content__user p {
+  color: #8bacda;
+  font-weight: 300;
+  padding-left: 15px;
+}
+
+.attribution {
+  color: #8bacda;
+  font-size: 11px;
+  text-align: center;
+}
